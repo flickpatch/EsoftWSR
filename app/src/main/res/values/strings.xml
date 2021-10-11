@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">EsoftWSR</string>
+    <string-array name="SpinnerTime">
+        <item>"30min"</item>
+        <item>"1 hour"</item>
+        <item>"1h.30min"</item>
+        <item>"2 hours"</item>
+    </string-array>
+    <string-array name="SpinnerTypes">
+        <item>"meeting"</item>
+        <item>"presentation"</item>
+        <item>"phone-call"</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+   <TextView
+       android:id="@+id/tvTime"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:textSize="16dp"
+       android:hint="Время"
+       android:layout_margin="20dp"
+       />
+    <TextView
+        android:textSize="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvDate"
+        android:hint="Дата"
+        android:layout_margin="20dp"
+        />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/duration"
+        android:entries="@array/SpinnerTime"
+        android:layout_margin="20dp"
+        />
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/SelectType"
+        android:entries="@array/SpinnerTypes"
+        android:layout_margin="20dp"
+
+        />
+    <EditText
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:textSize="16sp"
+        android:hint="Комметарий"
+        android:layout_margin="20dp"
+        />
+
+</LinearLayout>
